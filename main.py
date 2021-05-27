@@ -9,7 +9,7 @@ import discord
 import youtube_dl
 from async_timeout import timeout
 from discord.ext import commands
-from keep_alive import keep_alive
+# from keep_alive import keep_alive (if you want to get downtime alerts)
 
 # Silence useless bug reports messages
 youtube_dl.utils.bug_reports_message = lambda: ''
